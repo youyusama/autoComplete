@@ -1,0 +1,826 @@
+step:0 
+train  Loss: 7.628793 Tokens per Sec: 135.211119 
+test   Loss: 7.690529 Tokens per Sec: 400.393895 
+step:100 
+train  Loss: 5.399003 Tokens per Sec: 237.636291 
+test   Loss: 4.614414 Tokens per Sec: 395.864259 
+step:200 
+train  Loss: 4.668821 Tokens per Sec: 284.782447 
+test   Loss: 3.769641 Tokens per Sec: 576.080089 
+step:300 
+train  Loss: 4.614659 Tokens per Sec: 346.285851 
+test   Loss: 4.205959 Tokens per Sec: 416.978464 
+step:0 
+train  Loss: 7.351756 Tokens per Sec: 255.773542 
+test   Loss: 7.573652 Tokens per Sec: 880.135915 
+step:0 
+train  Loss: 7.846518 Tokens per Sec: 1255.598881 
+test   Loss: 7.593612 Tokens per Sec: 3179.616961 
+step:0 
+train  Loss: 7.875674 Tokens per Sec: 267.881873 
+test   Loss: 7.580533 Tokens per Sec: 354.391217 
+step:0 
+train  Loss: 7.682556 Tokens per Sec: 264.214012 
+test   Loss: 7.594676 Tokens per Sec: 355.767927 
+step:0 
+train  Loss: 7.889155 Tokens per Sec: 268.880019 
+test   Loss: 7.468267 Tokens per Sec: 354.239283 
+step:0 
+step:0 
+step:0 
+step:0 
+step:0 
+train  Loss: 6.278443 Tokens per Sec: 327.413016 
+test   Loss: 6.461321 Tokens per Sec: 356.421998 
+step:100 
+train  Loss: 2.261826 Tokens per Sec: 341.970127 
+test   Loss: 2.370607 Tokens per Sec: 365.197626 
+step:200 
+train  Loss: 3.238682 Tokens per Sec: 341.632444 
+test   Loss: 2.447648 Tokens per Sec: 364.631993 
+step:300 
+train  Loss: 2.911493 Tokens per Sec: 331.506297 
+test   Loss: 2.447587 Tokens per Sec: 353.105485 
+step:400 
+train  Loss: 2.639915 Tokens per Sec: 330.525258 
+test   Loss: 2.414923 Tokens per Sec: 352.629873 
+step:500 
+train  Loss: 3.050864 Tokens per Sec: 341.614317 
+test   Loss: 2.847952 Tokens per Sec: 364.919836 
+step:600 
+train  Loss: 2.791729 Tokens per Sec: 330.716499 
+test   Loss: 2.427680 Tokens per Sec: 352.055126 
+step:700 
+train  Loss: 2.682626 Tokens per Sec: 331.181294 
+test   Loss: 2.758877 Tokens per Sec: 352.395568 
+step:800 
+train  Loss: 2.837768 Tokens per Sec: 341.769404 
+test   Loss: 3.126461 Tokens per Sec: 364.786489 
+step:900 
+train  Loss: 2.722649 Tokens per Sec: 341.944012 
+test   Loss: 2.361956 Tokens per Sec: 364.767347 
+step:1000 
+train  Loss: 2.752739 Tokens per Sec: 341.643556 
+test   Loss: 2.920064 Tokens per Sec: 364.704186 
+step:1100 
+train  Loss: 2.596719 Tokens per Sec: 341.968953 
+test   Loss: 2.493469 Tokens per Sec: 364.960223 
+step:1200 
+train  Loss: 2.746480 Tokens per Sec: 330.787036 
+test   Loss: 2.783584 Tokens per Sec: 352.417472 
+step:1300 
+train  Loss: 2.811110 Tokens per Sec: 341.981431 
+test   Loss: 2.731076 Tokens per Sec: 365.244446 
+step:1400 
+train  Loss: 2.535054 Tokens per Sec: 342.170572 
+test   Loss: 2.747711 Tokens per Sec: 365.195264 
+step:1500 
+train  Loss: 3.118735 Tokens per Sec: 331.482744 
+test   Loss: 2.336381 Tokens per Sec: 353.257248 
+step:1600 
+train  Loss: 2.200612 Tokens per Sec: 331.621823 
+test   Loss: 2.702943 Tokens per Sec: 353.350910 
+step:0 
+train  Loss: 5.456355 Tokens per Sec: 327.037399 
+test   Loss: 5.984419 Tokens per Sec: 358.451011 
+step:100 
+train  Loss: 2.893881 Tokens per Sec: 331.780477 
+test   Loss: 2.744646 Tokens per Sec: 353.515044 
+step:0 
+train  Loss: 6.061818 Tokens per Sec: 330.113065 
+test   Loss: 6.043376 Tokens per Sec: 358.722789 
+step:100 
+train  Loss: 2.903537 Tokens per Sec: 331.993897 
+test   Loss: 2.695543 Tokens per Sec: 353.075243 
+step:0 
+train  Loss: 5.962620 Tokens per Sec: 328.838263 
+test   Loss: 5.201068 Tokens per Sec: 356.024947 
+step:100 
+train  Loss: 2.266426 Tokens per Sec: 331.955591 
+test   Loss: 2.984319 Tokens per Sec: 358.621890 
+step:200 
+train  Loss: 2.689026 Tokens per Sec: 331.790988 
+test   Loss: 2.897216 Tokens per Sec: 354.107551 
+step:300 
+train  Loss: 2.681754 Tokens per Sec: 332.065883 
+step:0 
+train  Loss: 6.864096 Tokens per Sec: 2436.669363 
+step:0 
+step:0 
+train  Loss: 5.763633 Tokens per Sec: 328.578439 
+test   Loss: 5.927726 Tokens per Sec: 358.678353 
+step:100 
+train  Loss: 2.697742 Tokens per Sec: 331.559533 
+test   Loss: 3.230507 Tokens per Sec: 352.955310 
+step:200 
+train  Loss: 2.772661 Tokens per Sec: 342.184180 
+test   Loss: 2.584572 Tokens per Sec: 364.969873 
+step:300 
+train  Loss: 2.900379 Tokens per Sec: 331.694997 
+test   Loss: 2.890225 Tokens per Sec: 353.214044 
+step:400 
+train  Loss: 2.570837 Tokens per Sec: 331.281327 
+test   Loss: 2.605983 Tokens per Sec: 353.104776 
+step:500 
+train  Loss: 2.653975 Tokens per Sec: 330.916298 
+test   Loss: 2.772611 Tokens per Sec: 353.105913 
+step:600 
+train  Loss: 2.221976 Tokens per Sec: 341.987159 
+test   Loss: 2.891130 Tokens per Sec: 365.010261 
+step:700 
+train  Loss: 2.614618 Tokens per Sec: 341.927862 
+test   Loss: 2.706303 Tokens per Sec: 365.128077 
+step:800 
+train  Loss: 2.624510 Tokens per Sec: 331.964313 
+test   Loss: 2.699266 Tokens per Sec: 354.201928 
+step:900 
+train  Loss: 2.581004 Tokens per Sec: 331.573126 
+test   Loss: 2.741877 Tokens per Sec: 358.132559 
+step:0 
+step:0 
+step:0 
+step:0 
+step:0 
+step:0 
+step:0 
+train  Loss: 6.073201 Tokens per Sec: 2018.753678 
+step:0 
+step:0 
+train  Loss: 5.840319 Tokens per Sec: 1885.015144 
+step:0 
+train  Loss: 5.703506 Tokens per Sec: 2000.768727 
+test   Loss: 6.417819 Tokens per Sec: 3131.168123 
+step:100 
+train  Loss: 2.989008 Tokens per Sec: 2161.405806 
+test   Loss: 3.439147 Tokens per Sec: 3034.860218 
+step:200 
+train  Loss: 2.190315 Tokens per Sec: 2095.088546 
+test   Loss: 2.737713 Tokens per Sec: 3155.837699 
+step:300 
+train  Loss: 2.679863 Tokens per Sec: 2197.637842 
+test   Loss: 2.343443 Tokens per Sec: 3053.947561 
+step:400 
+train  Loss: 2.353831 Tokens per Sec: 2207.221737 
+test   Loss: 1.717851 Tokens per Sec: 3077.975782 
+step:500 
+train  Loss: 2.287270 Tokens per Sec: 2246.684215 
+test   Loss: 1.992639 Tokens per Sec: 3183.623384 
+step:600 
+train  Loss: 1.946631 Tokens per Sec: 2197.207713 
+test   Loss: 1.569563 Tokens per Sec: 3344.654098 
+step:700 
+train  Loss: 1.343502 Tokens per Sec: 2135.612163 
+test   Loss: 1.169494 Tokens per Sec: 3324.757458 
+step:0 
+train  Loss: 6.018391 Tokens per Sec: 8289.209654 
+step:0 
+train  Loss: 5.988314 Tokens per Sec: 8913.107516 
+test   Loss: 5.849300 Tokens per Sec: 10363.521609 
+step:100 
+train  Loss: 0.211381 Tokens per Sec: 9114.966539 
+test   Loss: 0.115810 Tokens per Sec: 10453.115259 
+step:200 
+train  Loss: 0.123949 Tokens per Sec: 8917.304717 
+test   Loss: 0.069407 Tokens per Sec: 10418.108753 
+step:300 
+train  Loss: 0.100837 Tokens per Sec: 9233.327632 
+test   Loss: 0.063928 Tokens per Sec: 11000.982078 
+step:400 
+train  Loss: 0.081613 Tokens per Sec: 9847.087424 
+test   Loss: 0.060546 Tokens per Sec: 11038.913750 
+step:500 
+train  Loss: 0.078442 Tokens per Sec: 9120.502021 
+test   Loss: 0.067696 Tokens per Sec: 10394.329948 
+step:600 
+train  Loss: 0.089272 Tokens per Sec: 9141.580149 
+test   Loss: 0.054999 Tokens per Sec: 10785.199897 
+step:700 
+train  Loss: 0.084604 Tokens per Sec: 9176.885100 
+test   Loss: 0.065280 Tokens per Sec: 10377.967927 
+step:800 
+train  Loss: 0.077611 Tokens per Sec: 9229.124981 
+test   Loss: 0.061820 Tokens per Sec: 10564.730190 
+step:900 
+train  Loss: 0.076045 Tokens per Sec: 9353.064062 
+test   Loss: 0.077959 Tokens per Sec: 10499.591535 
+step:1000 
+train  Loss: 0.055323 Tokens per Sec: 9400.072381 
+test   Loss: 0.062579 Tokens per Sec: 10542.699266 
+step:1100 
+train  Loss: 0.070784 Tokens per Sec: 10133.797513 
+test   Loss: 0.054482 Tokens per Sec: 11636.753869 
+step:1200 
+train  Loss: 0.067882 Tokens per Sec: 9385.327062 
+test   Loss: 0.041069 Tokens per Sec: 10808.121241 
+step:1300 
+train  Loss: 0.070384 Tokens per Sec: 9254.454393 
+test   Loss: 0.051234 Tokens per Sec: 10500.684799 
+step:1400 
+train  Loss: 0.072700 Tokens per Sec: 9250.658840 
+test   Loss: 0.055394 Tokens per Sec: 10539.493247 
+step:1500 
+train  Loss: 0.067434 Tokens per Sec: 9242.695174 
+test   Loss: 0.058749 Tokens per Sec: 10520.416650 
+step:1600 
+train  Loss: 0.053351 Tokens per Sec: 10145.403801 
+test   Loss: 0.053280 Tokens per Sec: 11622.269412 
+step:1700 
+train  Loss: 0.066878 Tokens per Sec: 9340.489337 
+test   Loss: 0.052506 Tokens per Sec: 10831.777786 
+step:1800 
+train  Loss: 0.060125 Tokens per Sec: 9356.838033 
+test   Loss: 0.052380 Tokens per Sec: 10574.162608 
+step:1900 
+train  Loss: 0.079066 Tokens per Sec: 10119.844068 
+test   Loss: 0.060562 Tokens per Sec: 11618.901155 
+step:0 
+step:0 
+train  Loss: 5.889997 Tokens per Sec: 3112.276399 
+test   Loss: 5.863013 Tokens per Sec: 3787.663685 
+step:100 
+train  Loss: 1.054552 Tokens per Sec: 3183.261625 
+test   Loss: 0.735004 Tokens per Sec: 3970.308084 
+step:200 
+train  Loss: 0.678152 Tokens per Sec: 3238.655406 
+test   Loss: 0.452234 Tokens per Sec: 3537.680352 
+step:300 
+train  Loss: 0.468322 Tokens per Sec: 2919.690751 
+test   Loss: 0.349236 Tokens per Sec: 3812.747843 
+step:400 
+train  Loss: 0.440388 Tokens per Sec: 3203.331961 
+test   Loss: 0.319215 Tokens per Sec: 3847.742864 
+step:500 
+train  Loss: 0.339713 Tokens per Sec: 3575.616933 
+test   Loss: 0.280074 Tokens per Sec: 4031.639402 
+step:600 
+train  Loss: 0.352957 Tokens per Sec: 3100.393656 
+test   Loss: 0.237322 Tokens per Sec: 3777.563225 
+step:700 
+train  Loss: 0.365400 Tokens per Sec: 3086.035308 
+test   Loss: 0.237871 Tokens per Sec: 4043.216147 
+step:800 
+train  Loss: 0.288486 Tokens per Sec: 3509.461561 
+test   Loss: 0.265238 Tokens per Sec: 4116.497093 
+step:900 
+train  Loss: 0.358069 Tokens per Sec: 3060.792231 
+test   Loss: 0.263158 Tokens per Sec: 3813.777918 
+step:1000 
+train  Loss: 0.340283 Tokens per Sec: 3160.038637 
+test   Loss: 0.195628 Tokens per Sec: 3895.490759 
+step:1100 
+train  Loss: 0.256980 Tokens per Sec: 3270.132414 
+test   Loss: 0.257250 Tokens per Sec: 4060.743752 
+step:1200 
+train  Loss: 0.314669 Tokens per Sec: 3097.582688 
+test   Loss: 0.207420 Tokens per Sec: 3957.027438 
+step:1300 
+train  Loss: 0.254077 Tokens per Sec: 3272.451690 
+test   Loss: 0.180934 Tokens per Sec: 4015.161763 
+step:1400 
+train  Loss: 0.234544 Tokens per Sec: 3570.572157 
+test   Loss: 0.191831 Tokens per Sec: 4331.580713 
+step:1500 
+train  Loss: 0.272434 Tokens per Sec: 3596.174775 
+test   Loss: 0.210080 Tokens per Sec: 4229.854715 
+step:1600 
+train  Loss: 0.295825 Tokens per Sec: 3737.318853 
+test   Loss: 0.157539 Tokens per Sec: 4307.452410 
+step:1700 
+train  Loss: 0.253527 Tokens per Sec: 4213.781258 
+test   Loss: 0.199180 Tokens per Sec: 5013.282897 
+step:1800 
+train  Loss: 0.240857 Tokens per Sec: 3628.631612 
+test   Loss: 0.219608 Tokens per Sec: 4309.059583 
+step:1900 
+train  Loss: 0.237210 Tokens per Sec: 3584.932195 
+test   Loss: 0.186023 Tokens per Sec: 4293.036545 
+step:0 
+train  Loss: 6.115385 Tokens per Sec: 3156.646845 
+test   Loss: 5.866932 Tokens per Sec: 4300.576213 
+step:100 
+train  Loss: 1.144262 Tokens per Sec: 3195.693435 
+test   Loss: 0.932147 Tokens per Sec: 4019.121603 
+step:200 
+train  Loss: 0.738007 Tokens per Sec: 3361.941289 
+test   Loss: 0.605096 Tokens per Sec: 4181.729968 
+step:300 
+train  Loss: 0.658100 Tokens per Sec: 3498.685565 
+test   Loss: 0.470089 Tokens per Sec: 4191.662262 
+step:400 
+train  Loss: 0.652921 Tokens per Sec: 3454.791801 
+test   Loss: 0.492512 Tokens per Sec: 4051.176660 
+step:500 
+train  Loss: 0.536073 Tokens per Sec: 3331.756236 
+test   Loss: 0.314114 Tokens per Sec: 4070.060192 
+step:600 
+train  Loss: 0.546405 Tokens per Sec: 3257.256062 
+test   Loss: 0.315186 Tokens per Sec: 4261.202549 
+step:700 
+train  Loss: 0.487941 Tokens per Sec: 3429.529118 
+test   Loss: 0.338459 Tokens per Sec: 4200.350192 
+step:800 
+train  Loss: 0.500798 Tokens per Sec: 3407.518713 
+test   Loss: 0.363614 Tokens per Sec: 4156.191191 
+step:900 
+train  Loss: 0.449160 Tokens per Sec: 3329.408687 
+test   Loss: 0.295711 Tokens per Sec: 3874.273303 
+step:1000 
+train  Loss: 0.474600 Tokens per Sec: 3344.399921 
+test   Loss: 0.341344 Tokens per Sec: 4173.426405 
+step:1100 
+train  Loss: 0.528229 Tokens per Sec: 3394.644697 
+test   Loss: 0.340510 Tokens per Sec: 4114.201591 
+step:1200 
+train  Loss: 0.399538 Tokens per Sec: 3277.774238 
+test   Loss: 0.388421 Tokens per Sec: 3942.827056 
+step:1300 
+train  Loss: 0.409498 Tokens per Sec: 3638.093450 
+test   Loss: 0.329955 Tokens per Sec: 5277.195827 
+step:1400 
+train  Loss: 0.452006 Tokens per Sec: 3271.356916 
+test   Loss: 0.314115 Tokens per Sec: 3915.094642 
+step:1500 
+train  Loss: 0.424627 Tokens per Sec: 3415.463629 
+test   Loss: 0.323333 Tokens per Sec: 3992.171240 
+step:1600 
+train  Loss: 0.432882 Tokens per Sec: 3515.959602 
+test   Loss: 0.340258 Tokens per Sec: 4223.685173 
+step:1700 
+train  Loss: 0.398668 Tokens per Sec: 4435.289803 
+test   Loss: 0.313824 Tokens per Sec: 5289.877471 
+step:0 
+train  Loss: 6.074497 Tokens per Sec: 4538.921401 
+test   Loss: 5.905001 Tokens per Sec: 6173.479882 
+step:100 
+train  Loss: 0.916274 Tokens per Sec: 4928.982658 
+test   Loss: 0.593749 Tokens per Sec: 6066.496531 
+step:200 
+train  Loss: 0.545205 Tokens per Sec: 4702.615688 
+test   Loss: 0.468624 Tokens per Sec: 6091.691718 
+step:300 
+train  Loss: 0.484616 Tokens per Sec: 4873.736688 
+test   Loss: 0.359759 Tokens per Sec: 5653.386377 
+step:400 
+train  Loss: 0.481716 Tokens per Sec: 4934.117067 
+test   Loss: 0.248139 Tokens per Sec: 6123.778566 
+step:500 
+train  Loss: 0.386803 Tokens per Sec: 4719.249000 
+test   Loss: 0.250007 Tokens per Sec: 6200.424085 
+step:600 
+train  Loss: 0.345968 Tokens per Sec: 4932.352596 
+test   Loss: 0.248874 Tokens per Sec: 6522.699819 
+step:700 
+train  Loss: 0.326839 Tokens per Sec: 4716.746487 
+test   Loss: 0.230878 Tokens per Sec: 5954.636896 
+step:800 
+train  Loss: 0.292770 Tokens per Sec: 4596.680531 
+test   Loss: 0.216092 Tokens per Sec: 5657.898182 
+step:900 
+train  Loss: 0.339334 Tokens per Sec: 4680.958214 
+test   Loss: 0.205834 Tokens per Sec: 5586.205596 
+step:1000 
+train  Loss: 0.302015 Tokens per Sec: 4889.706542 
+test   Loss: 0.230157 Tokens per Sec: 5905.270065 
+step:1100 
+train  Loss: 0.281971 Tokens per Sec: 5674.646726 
+test   Loss: 0.253564 Tokens per Sec: 7188.090853 
+step:1200 
+train  Loss: 0.260371 Tokens per Sec: 4789.113856 
+test   Loss: 0.211580 Tokens per Sec: 5813.698164 
+step:1300 
+train  Loss: 0.270019 Tokens per Sec: 4895.969176 
+test   Loss: 0.173537 Tokens per Sec: 6015.061238 
+step:1400 
+train  Loss: 0.309837 Tokens per Sec: 4983.321744 
+test   Loss: 0.244032 Tokens per Sec: 5968.962719 
+step:1500 
+train  Loss: 0.244145 Tokens per Sec: 5676.617449 
+test   Loss: 0.246902 Tokens per Sec: 7170.506446 
+step:1600 
+train  Loss: 0.270803 Tokens per Sec: 4762.215083 
+test   Loss: 0.198934 Tokens per Sec: 6007.963794 
+step:1700 
+train  Loss: 0.260788 Tokens per Sec: 4912.555537 
+test   Loss: 0.185254 Tokens per Sec: 5895.247104 
+step:1800 
+train  Loss: 0.236622 Tokens per Sec: 4886.758612 
+test   Loss: 0.201224 Tokens per Sec: 5753.084562 
+step:1900 
+train  Loss: 0.207619 Tokens per Sec: 5706.116852 
+test   Loss: 0.174145 Tokens per Sec: 7206.986266 
+step:0 
+train  Loss: 5.805034 Tokens per Sec: 1576.235010 
+test   Loss: 5.857647 Tokens per Sec: 2220.477416 
+step:100 
+train  Loss: 2.253879 Tokens per Sec: 2420.324240 
+test   Loss: 1.895239 Tokens per Sec: 2358.414212 
+step:200 
+train  Loss: 1.664304 Tokens per Sec: 2418.247401 
+test   Loss: 1.526225 Tokens per Sec: 3431.943011 
+step:300 
+train  Loss: 1.575319 Tokens per Sec: 1672.802397 
+test   Loss: 1.092010 Tokens per Sec: 2177.419195 
+step:400 
+train  Loss: 1.051416 Tokens per Sec: 2403.272013 
+test   Loss: 0.924329 Tokens per Sec: 3407.478091 
+step:500 
+train  Loss: 1.141925 Tokens per Sec: 1699.526636 
+test   Loss: 0.937872 Tokens per Sec: 2207.651017 
+step:600 
+train  Loss: 1.132631 Tokens per Sec: 2388.018700 
+test   Loss: 0.816782 Tokens per Sec: 3392.928547 
+step:700 
+train  Loss: 0.971417 Tokens per Sec: 1730.615840 
+test   Loss: 0.771957 Tokens per Sec: 2160.690350 
+step:800 
+train  Loss: 0.934780 Tokens per Sec: 1728.115887 
+test   Loss: 0.684248 Tokens per Sec: 2183.343309 
+step:900 
+train  Loss: 0.962062 Tokens per Sec: 2411.042405 
+test   Loss: 0.779461 Tokens per Sec: 3420.559602 
+step:1000 
+train  Loss: 0.952890 Tokens per Sec: 1704.963151 
+test   Loss: 0.779506 Tokens per Sec: 2197.000148 
+step:1100 
+train  Loss: 0.760326 Tokens per Sec: 1657.794676 
+test   Loss: 0.681379 Tokens per Sec: 2187.595492 
+step:1200 
+train  Loss: 0.904723 Tokens per Sec: 1673.652006 
+test   Loss: 0.724195 Tokens per Sec: 2150.928674 
+step:1300 
+train  Loss: 0.927801 Tokens per Sec: 1702.392423 
+test   Loss: 0.672412 Tokens per Sec: 2191.497589 
+step:1400 
+train  Loss: 0.885871 Tokens per Sec: 1666.209175 
+test   Loss: 0.702625 Tokens per Sec: 2227.028828 
+step:1500 
+train  Loss: 0.823656 Tokens per Sec: 1670.030232 
+test   Loss: 0.650535 Tokens per Sec: 2212.946093 
+step:0 
+train  Loss: 6.250228 Tokens per Sec: 1538.052496 
+test   Loss: 5.886982 Tokens per Sec: 2980.379521 
+step:100 
+train  Loss: 2.063401 Tokens per Sec: 2275.453437 
+test   Loss: 1.829364 Tokens per Sec: 3036.912009 
+step:200 
+train  Loss: 1.530468 Tokens per Sec: 1720.619256 
+test   Loss: 1.302372 Tokens per Sec: 3002.140553 
+step:300 
+train  Loss: 1.521824 Tokens per Sec: 2259.153255 
+test   Loss: 1.106797 Tokens per Sec: 2382.774883 
+step:400 
+train  Loss: 1.136266 Tokens per Sec: 1613.172621 
+test   Loss: 0.896561 Tokens per Sec: 2068.569338 
+step:500 
+train  Loss: 1.084026 Tokens per Sec: 1640.568387 
+test   Loss: 0.844569 Tokens per Sec: 2007.617082 
+step:600 
+train  Loss: 1.151876 Tokens per Sec: 1637.730223 
+test   Loss: 0.774875 Tokens per Sec: 1965.635354 
+step:700 
+train  Loss: 1.041660 Tokens per Sec: 2259.816863 
+test   Loss: 0.825321 Tokens per Sec: 3007.538365 
+step:800 
+train  Loss: 0.826397 Tokens per Sec: 1609.119473 
+test   Loss: 0.695676 Tokens per Sec: 1962.291391 
+step:900 
+train  Loss: 0.996457 Tokens per Sec: 2259.958679 
+test   Loss: 0.679980 Tokens per Sec: 2396.289223 
+step:1000 
+train  Loss: 0.921892 Tokens per Sec: 1638.808099 
+test   Loss: 0.632700 Tokens per Sec: 2972.284390 
+step:1100 
+train  Loss: 0.937889 Tokens per Sec: 1606.886382 
+test   Loss: 0.720756 Tokens per Sec: 2065.686836 
+step:1200 
+train  Loss: 0.779252 Tokens per Sec: 1610.171673 
+test   Loss: 0.599550 Tokens per Sec: 2579.747054 
+step:1300 
+train  Loss: 0.967351 Tokens per Sec: 2254.448670 
+test   Loss: 0.643907 Tokens per Sec: 3015.844418 
+step:1400 
+train  Loss: 0.786085 Tokens per Sec: 1622.780873 
+test   Loss: 0.626676 Tokens per Sec: 2017.407996 
+step:1500 
+train  Loss: 0.850956 Tokens per Sec: 1613.048048 
+test   Loss: 0.602935 Tokens per Sec: 1930.195049 
+step:0 
+train  Loss: 6.121092 Tokens per Sec: 1490.092591 
+test   Loss: 5.848680 Tokens per Sec: 1965.129004 
+step:100 
+train  Loss: 1.989153 Tokens per Sec: 2179.098921 
+test   Loss: 2.446100 Tokens per Sec: 2681.653079 
+step:200 
+train  Loss: 1.569981 Tokens per Sec: 1607.322696 
+test   Loss: 1.455717 Tokens per Sec: 2205.737171 
+step:300 
+train  Loss: 1.521210 Tokens per Sec: 1583.000765 
+test   Loss: 0.942394 Tokens per Sec: 1953.991822 
+step:400 
+train  Loss: 1.236204 Tokens per Sec: 1523.644511 
+test   Loss: 0.975552 Tokens per Sec: 1930.903809 
+step:500 
+train  Loss: 1.156003 Tokens per Sec: 2171.224049 
+test   Loss: 0.930782 Tokens per Sec: 2684.147769 
+step:600 
+train  Loss: 1.161466 Tokens per Sec: 1944.570986 
+test   Loss: 0.840478 Tokens per Sec: 2671.889713 
+step:700 
+train  Loss: 0.809495 Tokens per Sec: 1572.552068 
+test   Loss: 0.803949 Tokens per Sec: 1979.695318 
+step:800 
+train  Loss: 1.071176 Tokens per Sec: 2176.362812 
+test   Loss: 0.596561 Tokens per Sec: 2691.158279 
+step:900 
+train  Loss: 0.946169 Tokens per Sec: 1627.456122 
+test   Loss: 0.779382 Tokens per Sec: 1933.762554 
+step:1000 
+train  Loss: 0.880365 Tokens per Sec: 1563.459217 
+test   Loss: 0.671242 Tokens per Sec: 1956.656944 
+step:1100 
+train  Loss: 0.947579 Tokens per Sec: 1563.871408 
+test   Loss: 0.743785 Tokens per Sec: 1935.913618 
+step:1200 
+train  Loss: 0.959032 Tokens per Sec: 1563.720844 
+test   Loss: 0.758778 Tokens per Sec: 1938.672595 
+step:1300 
+train  Loss: 0.949286 Tokens per Sec: 1614.085086 
+test   Loss: 0.660287 Tokens per Sec: 1940.990940 
+step:1400 
+train  Loss: 0.934515 Tokens per Sec: 1545.057102 
+test   Loss: 0.664417 Tokens per Sec: 1949.967467 
+step:1500 
+train  Loss: 0.723475 Tokens per Sec: 1745.731178 
+test   Loss: 0.776961 Tokens per Sec: 1946.289196 
+step:0 
+train  Loss: 5.750795 Tokens per Sec: 707.646183 
+test   Loss: 6.153815 Tokens per Sec: 970.968917 
+step:0 
+train  Loss: 6.049960 Tokens per Sec: 1466.799827 
+test   Loss: 6.211729 Tokens per Sec: 1821.493802 
+step:0 
+train  Loss: 5.911709 Tokens per Sec: 994.138813 
+test   Loss: 5.526476 Tokens per Sec: 1304.150307 
+step:100 
+train  Loss: 2.289381 Tokens per Sec: 1058.356713 
+test   Loss: 1.890750 Tokens per Sec: 1331.492692 
+step:200 
+train  Loss: 1.912198 Tokens per Sec: 1123.479436 
+test   Loss: 2.027782 Tokens per Sec: 1328.971462 
+step:300 
+train  Loss: 1.965128 Tokens per Sec: 1434.760729 
+test   Loss: 1.492995 Tokens per Sec: 1952.197679 
+step:400 
+train  Loss: 1.522389 Tokens per Sec: 1056.090104 
+test   Loss: 1.476949 Tokens per Sec: 1325.217748 
+step:500 
+train  Loss: 1.484801 Tokens per Sec: 1031.547637 
+step:0 
+train  Loss: 5.541656 Tokens per Sec: 1004.721732 
+test   Loss: 5.784057 Tokens per Sec: 1335.314895 
+step:100 
+train  Loss: 2.154885 Tokens per Sec: 1035.177519 
+test   Loss: 2.252362 Tokens per Sec: 1300.254443 
+step:200 
+train  Loss: 2.014647 Tokens per Sec: 1330.432681 
+test   Loss: 1.608613 Tokens per Sec: 1943.928562 
+step:300 
+train  Loss: 1.724043 Tokens per Sec: 1040.263979 
+test   Loss: 1.494815 Tokens per Sec: 1296.757930 
+step:400 
+train  Loss: 1.655305 Tokens per Sec: 1039.566600 
+test   Loss: 1.183513 Tokens per Sec: 1382.501552 
+step:500 
+train  Loss: 1.706922 Tokens per Sec: 1042.634632 
+test   Loss: 1.203637 Tokens per Sec: 1304.867517 
+step:600 
+train  Loss: 1.414185 Tokens per Sec: 1165.944582 
+test   Loss: 1.096533 Tokens per Sec: 1488.977452 
+step:700 
+train  Loss: 1.261543 Tokens per Sec: 1421.543347 
+test   Loss: 1.309744 Tokens per Sec: 1532.486720 
+step:800 
+train  Loss: 1.298790 Tokens per Sec: 1063.667483 
+test   Loss: 1.178228 Tokens per Sec: 1354.023544 
+step:900 
+train  Loss: 1.526564 Tokens per Sec: 1041.790341 
+test   Loss: 1.027431 Tokens per Sec: 1342.175815 
+step:1000 
+train  Loss: 1.382361 Tokens per Sec: 1431.742011 
+test   Loss: 1.423208 Tokens per Sec: 1795.164608 
+step:1100 
+train  Loss: 1.445034 Tokens per Sec: 1425.510532 
+test   Loss: 1.290711 Tokens per Sec: 1946.798174 
+step:1200 
+train  Loss: 1.525816 Tokens per Sec: 1032.582171 
+test   Loss: 1.153044 Tokens per Sec: 1357.994654 
+step:1300 
+train  Loss: 1.517695 Tokens per Sec: 1039.562768 
+test   Loss: 1.176668 Tokens per Sec: 1317.563478 
+step:1400 
+train  Loss: 1.436962 Tokens per Sec: 1027.464035 
+test   Loss: 1.406262 Tokens per Sec: 1335.590063 
+step:1500 
+train  Loss: 1.318319 Tokens per Sec: 1033.403173 
+test   Loss: 1.307900 Tokens per Sec: 1921.466471 
+step:0 
+train  Loss: 5.964306 Tokens per Sec: 3961.718756 
+test   Loss: 5.738350 Tokens per Sec: 6851.890990 
+step:0 
+train  Loss: 5.197504 Tokens per Sec: 2954.069381 
+test   Loss: 5.208539 Tokens per Sec: 4290.956456 
+step:100 
+train  Loss: 1.475379 Tokens per Sec: 4806.488765 
+test   Loss: 1.329178 Tokens per Sec: 6930.462349 
+step:200 
+train  Loss: 1.084343 Tokens per Sec: 3711.548028 
+test   Loss: 0.756544 Tokens per Sec: 4210.471971 
+step:300 
+train  Loss: 1.188567 Tokens per Sec: 4779.509036 
+test   Loss: 0.693984 Tokens per Sec: 6846.755845 
+step:400 
+train  Loss: 0.773872 Tokens per Sec: 3229.173141 
+test   Loss: 0.731494 Tokens per Sec: 4326.634938 
+step:500 
+train  Loss: 0.869483 Tokens per Sec: 3238.461366 
+test   Loss: 0.654986 Tokens per Sec: 4424.922999 
+step:600 
+train  Loss: 0.962515 Tokens per Sec: 3191.961461 
+test   Loss: 0.590781 Tokens per Sec: 4265.669674 
+step:700 
+train  Loss: 0.659811 Tokens per Sec: 3244.656814 
+test   Loss: 0.556479 Tokens per Sec: 4441.627602 
+step:800 
+train  Loss: 0.790220 Tokens per Sec: 4833.504490 
+test   Loss: 0.619069 Tokens per Sec: 6872.515478 
+step:900 
+train  Loss: 0.710750 Tokens per Sec: 4842.705271 
+test   Loss: 0.506417 Tokens per Sec: 6910.000696 
+step:1000 
+train  Loss: 0.730242 Tokens per Sec: 3185.536410 
+test   Loss: 0.588493 Tokens per Sec: 4386.947013 
+step:1100 
+train  Loss: 0.693242 Tokens per Sec: 4514.849422 
+test   Loss: 0.567566 Tokens per Sec: 5978.861737 
+step:1200 
+train  Loss: 0.662832 Tokens per Sec: 4796.759405 
+test   Loss: 0.651505 Tokens per Sec: 6930.905387 
+step:1300 
+train  Loss: 0.690806 Tokens per Sec: 3266.571703 
+test   Loss: 0.616070 Tokens per Sec: 4026.454577 
+step:1400 
+train  Loss: 0.751874 Tokens per Sec: 3257.872456 
+test   Loss: 0.579801 Tokens per Sec: 4039.181001 
+step:1500 
+train  Loss: 0.761370 Tokens per Sec: 4791.225757 
+test   Loss: 0.511879 Tokens per Sec: 6949.170420 
+step:0 
+train  Loss: 5.633476 Tokens per Sec: 2201.424132 
+test   Loss: 5.491049 Tokens per Sec: 3009.393839 
+step:100 
+train  Loss: 1.718260 Tokens per Sec: 2430.634352 
+test   Loss: 1.262316 Tokens per Sec: 3163.965366 
+step:200 
+train  Loss: 1.217499 Tokens per Sec: 3249.750996 
+test   Loss: 0.907065 Tokens per Sec: 4115.283337 
+step:300 
+train  Loss: 1.195396 Tokens per Sec: 2464.277266 
+test   Loss: 0.870189 Tokens per Sec: 2910.909827 
+step:400 
+train  Loss: 0.770767 Tokens per Sec: 2317.167799 
+test   Loss: 0.634124 Tokens per Sec: 2951.409005 
+step:500 
+train  Loss: 0.829274 Tokens per Sec: 2367.679793 
+test   Loss: 0.693200 Tokens per Sec: 2828.826598 
+step:600 
+train  Loss: 0.791179 Tokens per Sec: 2332.660069 
+test   Loss: 0.629755 Tokens per Sec: 2967.516495 
+step:700 
+train  Loss: 0.717961 Tokens per Sec: 2262.366433 
+test   Loss: 0.735721 Tokens per Sec: 3409.905407 
+step:800 
+train  Loss: 0.823026 Tokens per Sec: 3191.334027 
+test   Loss: 0.654413 Tokens per Sec: 4063.506140 
+step:900 
+train  Loss: 0.758847 Tokens per Sec: 2817.169462 
+test   Loss: 0.665567 Tokens per Sec: 2823.112235 
+step:1000 
+train  Loss: 0.797149 Tokens per Sec: 3198.100061 
+test   Loss: 0.628085 Tokens per Sec: 2793.012949 
+step:1100 
+train  Loss: 0.644041 Tokens per Sec: 2269.410699 
+test   Loss: 0.550527 Tokens per Sec: 2759.416988 
+step:1200 
+train  Loss: 0.725268 Tokens per Sec: 2276.231366 
+test   Loss: 0.609832 Tokens per Sec: 2740.668807 
+step:1300 
+train  Loss: 0.773888 Tokens per Sec: 2241.270449 
+test   Loss: 0.599609 Tokens per Sec: 2780.179560 
+step:1400 
+train  Loss: 0.647515 Tokens per Sec: 3191.655970 
+test   Loss: 0.494547 Tokens per Sec: 4048.137454 
+step:1500 
+train  Loss: 0.723943 Tokens per Sec: 2240.231443 
+test   Loss: 0.628618 Tokens per Sec: 2764.406699 
+step:0 
+train  Loss: 5.466217 Tokens per Sec: 1021.644763 
+test   Loss: 5.902034 Tokens per Sec: 1291.372026 
+step:100 
+train  Loss: 2.036915 Tokens per Sec: 1470.547533 
+test   Loss: 2.087494 Tokens per Sec: 2009.485063 
+step:200 
+train  Loss: 2.075444 Tokens per Sec: 1040.091631 
+test   Loss: 1.432752 Tokens per Sec: 1305.379320 
+step:300 
+train  Loss: 1.664015 Tokens per Sec: 1036.665888 
+test   Loss: 1.501786 Tokens per Sec: 1293.837116 
+step:400 
+train  Loss: 1.653153 Tokens per Sec: 1480.271901 
+test   Loss: 1.390073 Tokens per Sec: 2006.303011 
+step:500 
+train  Loss: 1.453943 Tokens per Sec: 1059.076346 
+test   Loss: 1.340847 Tokens per Sec: 1302.635507 
+step:600 
+train  Loss: 1.626865 Tokens per Sec: 1047.337954 
+test   Loss: 1.270973 Tokens per Sec: 1309.590836 
+step:700 
+train  Loss: 1.232073 Tokens per Sec: 1073.555345 
+test   Loss: 1.577473 Tokens per Sec: 1309.517856 
+step:800 
+train  Loss: 1.596278 Tokens per Sec: 1036.198016 
+test   Loss: 1.544965 Tokens per Sec: 1292.455789 
+step:900 
+train  Loss: 1.428607 Tokens per Sec: 1054.438905 
+test   Loss: 1.322478 Tokens per Sec: 1309.628527 
+step:1000 
+train  Loss: 1.363334 Tokens per Sec: 1038.512321 
+test   Loss: 1.459191 Tokens per Sec: 1286.342926 
+step:1100 
+train  Loss: 1.580698 Tokens per Sec: 1047.070446 
+test   Loss: 1.257742 Tokens per Sec: 1314.953318 
+step:1200 
+train  Loss: 1.460188 Tokens per Sec: 1054.307576 
+test   Loss: 1.430103 Tokens per Sec: 1318.056893 
+step:1300 
+train  Loss: 1.504908 Tokens per Sec: 1059.873914 
+test   Loss: 1.177055 Tokens per Sec: 1288.010716 
+step:1400 
+train  Loss: 1.295628 Tokens per Sec: 1044.845738 
+test   Loss: 1.343491 Tokens per Sec: 1299.955642 
+step:1500 
+train  Loss: 1.343729 Tokens per Sec: 1048.516569 
+test   Loss: 1.281706 Tokens per Sec: 1288.036506 
+step:0 
+train  Loss: 5.616514 Tokens per Sec: 3346.031457 
+test   Loss: 5.638584 Tokens per Sec: 4521.570937 
+step:100 
+train  Loss: 1.504019 Tokens per Sec: 3287.934392 
+test   Loss: 1.451094 Tokens per Sec: 4392.397686 
+step:200 
+train  Loss: 1.188911 Tokens per Sec: 3220.701190 
+test   Loss: 0.895168 Tokens per Sec: 4119.935706 
+step:300 
+train  Loss: 0.906292 Tokens per Sec: 3804.568055 
+test   Loss: 0.719425 Tokens per Sec: 5073.853762 
+step:400 
+train  Loss: 1.031901 Tokens per Sec: 3553.444562 
+test   Loss: 0.714217 Tokens per Sec: 4821.764807 
+step:500 
+train  Loss: 0.787656 Tokens per Sec: 3157.458667 
+test   Loss: 0.694875 Tokens per Sec: 4014.188563 
+step:600 
+train  Loss: 0.747476 Tokens per Sec: 2683.487153 
+test   Loss: 0.648244 Tokens per Sec: 3682.649309 
+step:700 
+train  Loss: 0.577294 Tokens per Sec: 2931.640484 
+test   Loss: 0.640987 Tokens per Sec: 3574.748730 
+step:800 
+train  Loss: 0.783612 Tokens per Sec: 2756.975096 
+test   Loss: 0.580419 Tokens per Sec: 3815.389859 
+step:900 
+train  Loss: 0.676157 Tokens per Sec: 2870.438832 
+test   Loss: 0.494252 Tokens per Sec: 3634.177676 
+step:1000 
+train  Loss: 0.628493 Tokens per Sec: 3072.462655 
+test   Loss: 0.566705 Tokens per Sec: 3471.685510 
+step:1100 
+train  Loss: 0.708239 Tokens per Sec: 2639.073260 
+test   Loss: 0.580208 Tokens per Sec: 3816.838213 
+step:1200 
+train  Loss: 0.703651 Tokens per Sec: 3086.500306 
+test   Loss: 0.717485 Tokens per Sec: 3776.576870 
+step:1300 
+train  Loss: 0.738562 Tokens per Sec: 3025.239933 
+test   Loss: 0.585665 Tokens per Sec: 4083.239815 
+step:1400 
+train  Loss: 0.739055 Tokens per Sec: 3651.737445 
+test   Loss: 0.555632 Tokens per Sec: 4438.639059 
+step:1500 
+train  Loss: 0.683947 Tokens per Sec: 3266.676205 
+test   Loss: 0.694194 Tokens per Sec: 3857.270569 
+step:0 
+step:0 
+train  Loss: 5.519380 Tokens per Sec: 105.462405 
+step:0 
+step:0 
+train  Loss: 5.887434 Tokens per Sec: 68.937759 

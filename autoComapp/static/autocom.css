@@ -1,0 +1,107 @@
+#autocombox{
+    overflow: hidden;
+    position: fixed;
+    z-index: 99998;
+    width: 451px;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+}
+
+#scroll {
+	height:50px;
+    width:5px;
+    z-index: 99999;
+	background:#ccc;
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer
+}
+
+#autocomlist{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 400px;
+}
+
+.autocomitem{
+    margin: 0px;
+    width: 450px;
+    height: 26px;
+    cursor: pointer;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.autocomitem:hover{
+    background-color: #e9e9e9;
+}
+.autocomitem-active{
+    margin: 0px;
+    width: 450px;
+    height: 26px;
+    cursor: pointer;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 2px;
+    background-color: dodgerblue;
+}
+
+.autocomitem ul{
+    list-style: none;
+    height: 24px;
+    padding: 2px;
+    margin: 0px;
+}
+
+.autocomitem-active ul{
+    list-style: none;
+    height: 24px;
+    padding: 2px;
+    margin: 0px;
+}
+
+.autocomitem ul li{
+    display: inline;
+    float: left;
+    margin-left: 8px;
+}
+
+.autocomitem-active ul li{
+    display: inline;
+    float: left;
+    margin-left: 8px;
+}
+
+.autocomitem ul .li-content{
+    display: inline;
+    width: 250px;
+    float: left;
+    margin: 0;
+}
+
+.autocomitem-active ul .li-content{
+    display: inline;
+    width: 250px;
+    float: left;
+    margin: 0;
+}
+
+.autocomitem ul li p{
+    font-size: 13px;
+    margin: 0;
+}
+.autocomitem-active ul li p{
+    font-size: 13px;
+    color:whitesmoke;
+    margin: 0;
+}
+
+.atcper{
+    width: 34px;
+}
+
+.atcms{
+    width: 45px;
+}
