@@ -63,7 +63,7 @@ if __name__ == "__main__":
     # sys.argv.append('train')
     sys.argv.append('inference')
     sys.argv.append('EN-ATP-V226.txt')
-    sys.argv.append('transformer_overlap_11_10_1500.model')
+    sys.argv.append('transformer_kg_1000_10_9_3.model')
     sys.argv.append('According to the Location Reports of the CC  ,  the ZC calculates ')
 
     if len(sys.argv) < 2:
@@ -118,7 +118,7 @@ if __name__ == "__main__":
         filename = sys.argv[2]
         trained_model_name = sys.argv[3]
         words = sys.argv[4]
-        model = torch.load(trained_model_name)
+        model = torch.load(trained_model_name, map_location='cpu')
         model.eval()
         dataloader = DataLoader_token_kg(filename, ents, chunk_len, device)
         word_list = words.replace('\n', ' ').replace('\t', ' ').split(' ')

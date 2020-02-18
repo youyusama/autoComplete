@@ -56,7 +56,7 @@ if __name__ == "__main__":
 	sys.argv.append('inference')
 	sys.argv.append('EN-ATP-V226.txt')
 	sys.argv.append('token')
-	sys.argv.append('transformer1000.model')
+	sys.argv.append('transformer_1000_10_9_3.model')
 	# 输入的句子
 	sys.argv.append('ATP')
 
@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
 
 		if is_char_level:
-			model = torch.load(trained_model_name).cuda()
+			model = torch.load(trained_model_name, map_location='cpu')
 			model.eval()
 			dataloader = DataLoader_char(filename, chunk_len, device)
 			src = Variable(dataloader.vocabularyLoader.char_tensor(words).unsqueeze(0))
@@ -146,7 +146,7 @@ if __name__ == "__main__":
 			print(result[1:])
 
 		else:
-			model = torch.load(trained_model_name).cuda()
+			model = torch.load(trained_model_name, map_location='cpu')
 			model.eval()
 
 			dataloader = DataLoader_token(filename, chunk_len, device)
