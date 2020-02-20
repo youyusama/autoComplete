@@ -8,7 +8,8 @@ autocomplete\
 ### 需要安装的包
 pytorch\
 seaborn\
-flask
+flask\
+xlwt
 
 ### 使用说明
 命令行运行\
@@ -36,3 +37,10 @@ crtl+Q可以调用自动补全功能，以当前光标位置到前一个`<.>`或
 修改autoComapp\autoCore.py中导入的包\
 transformer模型: objmain.py\
 transformer+kg模型: objrun_kg.py
+
+### 实验数据输出
+命令行运行:\
+```
+flask make-stat --docname=*文档名*
+```
+会在autocomplete下生成xls文件
