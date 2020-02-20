@@ -23,3 +23,11 @@ CREATE TABLE chosedcom(
     edited INTEGER NOT NULL,
     times INTEGER NOT NULL
 );
+
+CREATE TABLE onechosedcom(
+    indoc TEXT NOT NULL,
+    com TEXT NOT NULL,
+    edittime INTEGER NOT NULL,
+    ranking INTEGER NOT NULL,
+    edited INTEGER NOT NULL
+);

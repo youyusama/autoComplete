@@ -23,8 +23,6 @@ function autocompletemd(editor){
         success:function(data){
             console.log(data);
             let ali=data
-            console.log(ali.length)
-            console.log(ali[0].length)
     //get json here---------------------------------
     
     //alijson='[["edu",5,2,1,20],["ecnu",4,2,3,23],["wtenu",3,3,25,23]]';
@@ -58,7 +56,7 @@ function autocompletemd(editor){
 
     let atcbox=document.createElement("div");
     atcbox.setAttribute("id","autocombox");
-    console.log(ali.length)
+    //console.log(ali.length)
     let lb=10;
     if(ali.length<10) lb=ali.length; 
     lb=27*lb-1;
@@ -130,7 +128,7 @@ function autocompletemd(editor){
         atcitem.addEventListener("click",function(e){
             contentChosed=i;
             editor.insertValue(ali[i][0]);
-            nchs=cch-contenttocom.length;
+            nchs=cch;
             nche=editor.getCursor().ch;
             tline=cline;
             tch=nche;
@@ -222,7 +220,7 @@ function autocompletemd(editor){
             contentChosed=atcFocus;
             editor.setSelection({line:cline,ch:cch},{line:cline+1,ch:0})
             editor.replaceSelection(ali[atcFocus][0]);
-            nchs=cch-contenttocom.length;
+            nchs=cch;
             nche=editor.getCursor().ch;
             tline=cline;
             tch=nche;
@@ -237,7 +235,7 @@ function autocompletemd(editor){
             let tabch=editor.getCursor().ch;
             editor.setSelection({line:cline,ch:cch},{line:tabline,ch:tabch})
             editor.replaceSelection(ali[atcFocus][0]);
-            cch-contenttocom.length;
+            nchs=cch;
             nche=editor.getCursor().ch;
             tline=cline;
             tch=nche;

@@ -132,6 +132,8 @@ def postchosed():
         times=re[3]+1
         db.execute('UPDATE chosedcom SET edittime=?,ranking=?,edited=?,times=? WHERE indoc=? AND com=?',(edittime,ranking,edited,times,docname,com))
 
+    db.execute('INSERT INTO onechosedcom (indoc,com,edittime,ranking,edited) VALUES (?,?,?,?,?)',
+               (docname, com, edittime, ranking, edited,))
     db.commit()
     return jsonify('post success')
 
