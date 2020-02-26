@@ -65,6 +65,7 @@ def getautocomp():
     content=request.args.get('con')
     autocom=get_autocom()
     coms=autocom.doautocom(content)
+    print(content)
     result=[]
     for com in coms:
         #compute times
@@ -120,7 +121,7 @@ def postchosed():
     ranking=request.args.get('chosed')
     edittime=request.args.get('time')
     edited=request.args.get('diff')
-    print(com)
+    #print(com)
     db=get_db()
     if db.execute('SELECT * FROM chosedcom WHERE indoc=? AND com=?',(docname,com)).fetchone() is None:
         db.execute('INSERT INTO chosedcom (indoc,com,edittime,ranking,edited,times) VALUES (?,?,?,?,?,?)',(docname,com,edittime,ranking,edited,1,))
