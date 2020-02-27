@@ -9,6 +9,7 @@
 </head>
 <body>
     <p  >已经编辑的时间: <span id="editedtime">...</span>s</p>
+    <input type="button" value="获取数据统计表格" onclick="getstat()">
     <div id="editor">
         <textarea style="display:none;">### Hello Editor.md !</textarea>
     </div>
@@ -46,6 +47,19 @@
             }
         })
     },5000);
+    function getstat(){
+        // $.ajax({
+        //     type:'get',
+        //     url:$SCRIPT_ROOT+'/statistics',
+        //     success:function(data){
+        //         console.log('get statistic file')
+        //     },
+        //     error:function(xhr,type,xxx){
+        //         alert("error!");
+        //     }
+        // })
+        window.open($SCRIPT_ROOT+'/statistics')
+    }
 
 </script>
 </html>

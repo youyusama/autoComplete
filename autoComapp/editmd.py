@@ -1,7 +1,8 @@
 import functools
+import xlwt
 
 from flask import (
-    Blueprint, flash, g, redirect, render_template, request, session, url_for,jsonify
+    Blueprint, flash, g, redirect, render_template, request, session, url_for,jsonify,send_from_directory
 )
 from werkzeug.security import check_password_hash, generate_password_hash
 from autoComapp.db import get_db
@@ -12,9 +13,11 @@ bp = Blueprint('editmd', __name__, url_prefix='/')
 def beforedit():
     if request.method =='POST':
         docname=request.form['docname']
+        modelname=request.form['modelname']
         if docname=='':
             print('need docname != ""')
         else:
+            session['modelname']=modelname
             db=get_db()
             session['docname'] = docname
             print('start edit doc %s'%(docname))
@@ -63,7 +66,8 @@ def getautocomp():
 
     #build result
     content=request.args.get('con')
-    autocom=get_autocom()
+    modelname=session.get('modelname')
+    autocom=get_autocom(modelname)
     coms=autocom.doautocom(content)
     print(content)
     result=[]
@@ -149,11 +153,47 @@ def hey():
     db.commit()
     return jsonify('111')
 
-@bp.route('/status')
-def status():
-    db=get_db()
-    cursor=db.execute("SELECT * FROM test")
-    for row in cursor:
-        print("id: %d"%(row[0]))
-        print("username: %s"%(row[1]))
-    return  redirect(url_for('hello'))
+@bp.route('/editor/statistics')
+def statistics():
+    db = get_db()
+    docname=session.get('docname')
+    print(docname)
+
+    work_book = xlwt.Workbook(encoding='utf-8')
+    sheet = work_book.add_sheet(docname)
+    doc = db.execute('SELECT edittime,wakeuptimes FROM docs WHERE docname=?', (docname,)).fetchone()
+    sheet.write(0, 0, 'docname:')
+    sheet.write(0, 1, docname)
+    sheet.write(1, 0, 'doc total edit time:')
+    sheet.write(1, 1, doc[0])
+    sheet.write(2, 0, 'total autocomplete wakeuptimes in doc:')
+    sheet.write(2, 1, doc[1])
+    sheet.write(4, 0, 'wakeup info:')
+    sheet.write(5, 0, 'wakeuped content')
+    sheet.write(5, 1, 'wakeuped times')
+    sheetrow = 6
+    cwakeup = db.execute('SELECT * FROM wakeupcom WHERE indoc=?', (docname,))
+    for row in cwakeup:
+        sheet.write(sheetrow, 0, row[1])
+        sheet.write(sheetrow, 1, row[2])
+        sheetrow = sheetrow + 1
+
+    sheetrow = sheetrow + 1
+    sheet.write(sheetrow, 0, 'chose info:')
+    sheetrow = sheetrow + 1
+    sheet.write(sheetrow, 0, 'chosed content')
+    sheet.write(sheetrow, 1, 'edited time')
+    sheet.write(sheetrow, 2, 'chosed rank')
+    sheet.write(sheetrow, 3, 'edited characters')
+    sheetrow = sheetrow + 1
+    cchosed = db.execute('SELECT * FROM onechosedcom WHERE indoc=?', (docname,))
+    for row in cchosed:
+        sheet.write(sheetrow, 0, row[1])
+        sheet.write(sheetrow, 1, row[2])
+        sheet.write(sheetrow, 2, row[3])
+        sheet.write(sheetrow, 3, row[4])
+        sheetrow = sheetrow + 1
+
+    work_book.save('%s.xls' % (docname))
+
+    return  send_from_directory(r'D:\CNM\NTeat\autoCom' , filename='%s.xls' % (docname) , as_attachment=True)
