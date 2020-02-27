@@ -32,15 +32,3 @@ crtl+Q可以调用自动补全功能，以当前光标位置到前一个`<.>`或
 
 ### 路径修改
 需要修改autoComapp\Autocomplete_Transformer下objmain.py和objrun_kg.py中的调用路径和读取文件路径
-
-### 实验模型切换
-修改autoComapp\autoCore.py中导入的包\
-transformer模型: objmain.py\
-transformer+kg模型: objrun_kg.py
-
-### 实验数据输出
-命令行运行:\
-```
-flask make-stat --docname=*文档名*
-```
-会在autocomplete下生成xls文件
