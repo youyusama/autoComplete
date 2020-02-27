@@ -153,8 +153,8 @@ def hey():
     db.commit()
     return jsonify('111')
 
-@bp.route('/editor/statistics')
-def statistics():
+@bp.route('/editor/stat')
+def stat():
     db = get_db()
     docname=session.get('docname')
     print(docname)
@@ -197,3 +197,4 @@ def statistics():
     work_book.save('%s.xls' % (docname))
 
     return  send_from_directory(r'D:\CNM\NTeat\autoCom' , filename='%s.xls' % (docname) , as_attachment=True)
+    # return jsonify(docname)

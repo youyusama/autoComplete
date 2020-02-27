@@ -10,6 +10,7 @@
 <body>
     <p  >已经编辑的时间: <span id="editedtime">...</span>s</p>
     <input type="button" value="获取数据统计表格" onclick="getstat()">
+    <p>*获取统计表格可能会因为浏览器的缓存机制而下载同一文件，可以通过清除浏览器缓存解决</p>
     <div id="editor">
         <textarea style="display:none;">### Hello Editor.md !</textarea>
     </div>
@@ -58,7 +59,7 @@
         //         alert("error!");
         //     }
         // })
-        window.open($SCRIPT_ROOT+'/statistics')
+        window.open($SCRIPT_ROOT+'/stat')
     }
 
 </script>
