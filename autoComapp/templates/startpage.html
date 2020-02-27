@@ -4,7 +4,13 @@
     </head>
     <body>
         <h1>输入文档名称</h1>
-        <form method="POST">
+        <form method="POST"> 
+            <label for="model">model:</label>
+            <select name="modelname" id="modelname">
+                <option value="transformer">transformer</option>
+                <option value="transformerkg">transformer+kg</option>
+            </select>
+            <br><br>
             <label for="docname">docname:</label>
             <input type="text" name="docname" id="docname">
             <input type="submit" value="ok">

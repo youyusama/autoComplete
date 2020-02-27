@@ -14,10 +14,10 @@ import copy
 
 class objmain:
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    filename = r'D:\CNM\NTeat\autoCom\autoComapp\EN-ATP-V226.txt'
+    filename = r'D:\CNM\NTeat\autoCom\autoComapp\models\EN-ATP-V226.txt'
     is_char_level = 'token' == 'char'
     # trained_model_name = current_app.config['MODELPATH']
-    trained_model_name = r'D:\CNM\NTeat\autoCom\autoComapp\Autocomplete_Transformer\transformer_1000_10_9_3.model'
+    trained_model_name = r'D:\CNM\NTeat\autoCom\autoComapp\models\transformer_1000_10_9_3.model'
     model = torch.load(trained_model_name, map_location='cpu')
     model.eval()
     dataloader = DataLoader_token(filename, chunk_len, device)
