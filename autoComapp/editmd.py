@@ -35,10 +35,12 @@ def beforedit():
 @bp.route('/editor')
 def editor():
     docname =session.get('docname')
+    modelname=session.get('modelname')
     if docname is None:
         redirect(url_for('editmd.beforedit'))
     else:
-        print('now edit doc %s'%(docname))
+        print('now edit doc : %s'%(docname))
+        print('now edit doc by model : %s' % (modelname))
     return render_template('testeditormd.html')
 
 @bp.route('/editor/add5s')

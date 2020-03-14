@@ -9,7 +9,9 @@ autocomplete\
 pytorch\
 seaborn\
 flask\
-xlwt
+xlwt\
+regex\
+toposort
 
 ### 使用说明
 命令行运行\
@@ -31,4 +33,5 @@ crtl+Q可以调用自动补全功能，以当前光标位置到前一个`<.>`或
 因为僵硬的键盘监听，所以会有一些bug会导致光标移动不正确;)
 
 ### 路径修改
-需要修改autoComapp\Autocomplete_Transformer下objmain.py和objrun_kg.py中的调用路径和读取文件路径
+需要修改autoComapp\Autocomplete_Transformer下objmain.py和objrun_kg.py中的调用路径和读取文件路径\
+/src/objgpt2.py /src/encoder.py中路径 

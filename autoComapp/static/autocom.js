@@ -144,8 +144,8 @@ function autocompletemd(editor){
             if(!j){
                 atcitemli.setAttribute("class","li-content");
                 let t=ali[i][j];
-                if(t.length>24){
-                    t=t.slice(0,24);
+                if(t.length>40){
+                    t=t.slice(0,40);
                     t+="...";
                 }
                 atcitemli.innerHTML="<p>"+t+"</p>";
