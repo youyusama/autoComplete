@@ -42,3 +42,5 @@ crtl+Q可以调用自动补全功能，以当前光标位置到前一个`<.>`或
 sys.path.append(r'autoCom')
 from autoComapp.objngram import objngram,NGram
 ```
+在服务器上运行gunicorn出错同上要改\
+
