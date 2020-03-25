@@ -1,6 +1,5 @@
 import functools
 import xlwt
-
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for,jsonify,send_from_directory
 )
@@ -60,17 +59,18 @@ def add5s():
 @bp.route('/editor/getautocomp')
 def getautocomp():
     docname=session.get('docname')
-    db=get_db()
-    #add 1 wakeuptime to doc:docname
-    wakeuptimes=db.execute('SELECT wakeuptimes FROM docs WHERE docname=?',(docname,)).fetchone()[0]
-    wakeuptimes=wakeuptimes+1
-    db.execute('UPDATE docs SET wakeuptimes=? WHERE docname=?',(wakeuptimes,docname))
 
     #build result
     content=request.args.get('con')
     modelname=session.get('modelname')
     autocom=get_autocom(modelname)
     coms=autocom.doautocom(content)
+
+    db=get_db()
+    #add 1 wakeuptime to doc:docname
+    wakeuptimes=db.execute('SELECT wakeuptimes FROM docs WHERE docname=?',(docname,)).fetchone()[0]
+    wakeuptimes=wakeuptimes+1
+    db.execute('UPDATE docs SET wakeuptimes=? WHERE docname=?',(wakeuptimes,docname))
     print(content)
     result=[]
     for com in coms:

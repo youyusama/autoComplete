@@ -19,7 +19,7 @@ class objgpt2:
     with open(os.path.join(r'D:\CNM\NTeat\autoCom\autoComapp\src\models', '117M', 'hparams.json')) as f:
         hparams.override_from_dict(json.load(f))
 
-    if 7 > hparams.n_ctx:
+    if 3 > hparams.n_ctx:
         raise ValueError(
             "Can't get samples longer than window size: %s" % hparams.n_ctx)
 
@@ -32,7 +32,7 @@ class objgpt2:
 
     tf_sample = sample.sample_sequence(
         hparams=hparams,
-        length=7,
+        length=3,
         context=context,
         batch_size=1,
         temperature=1.0,
@@ -60,11 +60,11 @@ class objgpt2:
         # print(context_tokens)
         all_text = []
         index = 0
-        while index < 6:
+        while index < 5:
             out = self.sess.run(
                 self.tf_sample,
                 feed_dict={self.context: 1 * [context_tokens]})
-            for i in range(min(6 - index, 1)):
+            for i in range(min(5 - index, 1)):
                 text = self.enc.decode(out[i])
                 text=text.replace('\n', ' ')[len(words):-1]
                 all_text.append(text)
