@@ -39,6 +39,6 @@ crtl+Q可以调用自动补全功能，以当前光标位置到前一个`<.>`或
 /src/objgpt2.py /src/encoder.py中路径 \
 因为unpickler中的问题，要修改运行环境下的\Scripts\flask-script.py,增加
 ```
-sys.path.append(r'D:\CNM\NTeat\autoCom')
+sys.path.append(r'autoCom')
 from autoComapp.objngram import objngram,NGram
 ```
