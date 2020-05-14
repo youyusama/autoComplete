@@ -154,7 +154,7 @@ function autocompletemd(editor){
                 atcitemli.innerHTML="<div class=\"atcms\" ><p>"+ali[i][j]+"ms"+"</p></div>";
             }else{
                 atcitemli.setAttribute("class","li");
-                atcitemli.innerHTML="<div class=\"atcper\" ><p>"+ali[i][j]+"%"+"</p></div>";
+                atcitemli.innerHTML="<div class=\"atcper\" ><p>"+ali[i][j]+"c"+"</p></div>";
             }
             atcitemul.append(atcitemli);
         }

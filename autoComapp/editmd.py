@@ -102,7 +102,7 @@ def getautocomp():
             re4 = '-'
         else:
             edited = edited[0]
-            re4 = round(edited / comwt*100)
+            re4 = round(edited / comwt)
         re=[]
         re.append(com)
         re.append(re1)
@@ -129,6 +129,10 @@ def postchosed():
     edited=request.args.get('diff')
     #print(com)
     db=get_db()
+
+    db.execute('INSERT INTO onechosedcom (indoc,com,edittime,ranking,edited) VALUES (?,?,?,?,?)',
+               (docname, com, edittime, ranking, edited,))
+
     if db.execute('SELECT * FROM chosedcom WHERE indoc=? AND com=?',(docname,com)).fetchone() is None:
         db.execute('INSERT INTO chosedcom (indoc,com,edittime,ranking,edited,times) VALUES (?,?,?,?,?,?)',(docname,com,edittime,ranking,edited,1,))
     else:
@@ -139,8 +143,6 @@ def postchosed():
         times=re[3]+1
         db.execute('UPDATE chosedcom SET edittime=?,ranking=?,edited=?,times=? WHERE indoc=? AND com=?',(edittime,ranking,edited,times,docname,com))
 
-    db.execute('INSERT INTO onechosedcom (indoc,com,edittime,ranking,edited) VALUES (?,?,?,?,?)',
-               (docname, com, edittime, ranking, edited,))
     db.commit()
     return jsonify('post success')
 
